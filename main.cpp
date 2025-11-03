@@ -124,13 +124,13 @@ baby.sleep();
 baby.crawl();
 
 //  9)
-//  Noun:        music
-//  action 1:    music soothes
-music.soothe();
-//  action 2:    music inspires
-music.inspire();
-//  action 3:    music heals
-music.heal();
+//  Noun:        car battery
+//  action 1:    A car battery stores energy 
+carBattery.storeEnergy();
+//  action 2:    A car battery starts the engine
+carBattery.startEngine();
+//  action 3:    A car battery powers the car's electrical system
+carBattery.powerElectronics();
 
 //  10)
 //  Noun:        job
@@ -141,17 +141,18 @@ job.providePurpose();
 //  action 3:    job leads to career growth
 job.leadToCareerGrowth();
 
-
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -159,8 +160,7 @@ job.leadToCareerGrowth();
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
